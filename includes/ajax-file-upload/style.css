@@ -1,0 +1,39 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Sep 21, 2019, 10:59:24 AM
+    Author     : Admin
+*/
+
+table.progress-bar-block
+{
+    width : 100%;
+    border-collapse: collapse;
+}
+
+table.progress-bar-block thead tr{
+    background-color: #2aabd2;
+    color : #FFF;
+}
+
+table.progress-bar-block td, th
+{
+    padding : 3px 6px;
+    border : 1px solid #CCC;
+}
+
+table.progress-bar-block td, th
+{
+    border-color : #FFF;
+}
+
+table.progress-bar-block .progress {
+    margin-bottom: 0;
+}
+
+table.progress-bar-block .abort{
+    cursor: pointer;
+}
